@@ -1,0 +1,45 @@
+Arguments: 
+  C:\Users\user\AppData\Local\Volta\tools\image\node\16.13.2\node.exe C:\Users\user\AppData\Local\Volta\tools\image\yarn\1.22.17\bin\yarn.js add simple-discord-webhook
+
+PATH: 
+  C:\Users\user\AppData\Local\Volta\tools\image\yarn\1.22.17\bin;C:\Users\user\AppData\Local\Volta\tools\image\node\16.13.2;C:\Program Files\Volta\;C:\Program Files (x86)\VMware\VMware Player\bin\;C:\Python27\;C:\Python27\Scripts;C:\Python310\Scripts\;C:\Python310\;C:\Python39\Scripts\;C:\Python39\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\ProgramData\chocolatey\bin;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Users\user\AppData\Roaming\nvm;C:\Program Files\nodejs;C:\Program Files (x86)\Lua\5.1;C:\Program Files (x86)\Lua\5.1\clibs;C:\Program Files\nodejs\;C:\Users\user\AppData\Local\Volta\bin;C:\Ruby30-x64\bin;C:\Users\user\.cargo\bin;C:\Users\user\scoop\shims;C:\Users\user\AppData\Local\Microsoft\WindowsApps;C:\Users\user\AppData\Local\Programs\Git\cmd;C:\ProgramData\chocolatey\lib\mingw\tools\install\mingw64\bin;C:\Users\user\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\user\AppData\Roaming\nvm;C:\Users\user\AppData\Local\Programs\Hyper\resources\bin;C:\Users\user\AppData\Roaming\npm
+
+Yarn version: 
+  1.22.17
+
+Node version: 
+  16.13.2
+
+Platform: 
+  win32 x64
+
+Trace: 
+  Error: https://registry.yarnpkg.com/simple-discord-webhook: Not found
+      at Request.params.callback [as _callback] (C:\Users\user\AppData\Local\Volta\tools\image\yarn\1.22.17\lib\cli.js:67029:18)
+      at Request.self.callback (C:\Users\user\AppData\Local\Volta\tools\image\yarn\1.22.17\lib\cli.js:140883:22)
+      at Request.emit (node:events:390:28)
+      at Request.<anonymous> (C:\Users\user\AppData\Local\Volta\tools\image\yarn\1.22.17\lib\cli.js:141855:10)
+      at Request.emit (node:events:390:28)
+      at IncomingMessage.<anonymous> (C:\Users\user\AppData\Local\Volta\tools\image\yarn\1.22.17\lib\cli.js:141777:12)
+      at Object.onceWrapper (node:events:509:28)
+      at IncomingMessage.emit (node:events:402:35)
+      at endReadableNT (node:internal/streams/readable:1343:12)
+      at processTicksAndRejections (node:internal/process/task_queues:83:21)
+
+npm manifest: 
+  {
+    "name": "planet-cast-seeker",
+    "version": "1.0.0",
+    "main": "index.js",
+    "dependencies": {
+      "axios": "^0.25.0",
+      "discord.js": "^13.6.0",
+      "dotenv": "^16.0.0"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
